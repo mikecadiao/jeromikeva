@@ -10,8 +10,8 @@
 
     <nav class="navbar">
         <div class="container">
-            <a href="#home" class="logo">Jeromike Cadiao</a>
-            <div class="menu-toggle">
+            <a href="#home" class="logo">Jeromike Cadiao - Virtual Assistant</a>
+            <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links-mobile">
                 <div class="bar"></div>
                 <div class="bar"></div>
                 <div class="bar"></div>
@@ -19,19 +19,29 @@
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
                 <li><a href="#work">Work</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#achievements">Achievements</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 
     <section id="home">
+        <!-- Video Background -->
+        <video autoplay muted loop playsinline poster="assets/hero-video-poster.jpg" id="hero-video-background">
+            <!-- Using your Cloudinary video with automatic format and quality optimization -->
+            <source src="https://res.cloudinary.com/dydsv9jmt/video/upload/f_auto,q_auto/v1749662436/z4unc02us8zxxmtafylh.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <div class="container">
             <div class="hero-content">
-                <h1>Strategic Communications Director Driving Engagement and Growth</h1>
-                <p class="subtitle">A meticulously curated narrative to showcase expertise, highlight achievements, and articulate a distinct professional identity.</p>
+                <h1>Hire a Versatile Virtual Assistant & Reclaim Your Time</h1>
+                <p class="subtitle">Let me manage your creative and technical tasks so you can focus on your core business. As your dedicated virtual assistant, I specialize in social media management, graphic design, and sales funnel support to help your brand grow..</p>
                 <a href="#work" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
             </div>
         </div>
     </section>
@@ -40,18 +50,30 @@
         <div class="container">
             <h2>About Me</h2>
             <div class="about-content">
-                <img src="assets/your-professional-headshot.jpg" alt="Jeromike Cadiao professional headshot" class="profile-image">
+                <img src="assets/Front Slack.jpg" alt="Jeromike Cadiao professional headshot" class="profile-image">
                 <div>
                     <h3>Beyond the Bio: Connecting Authentically</h3>
-                    <p>
-                        This is where you share your professional journey, motivations, and the passion that drives your work in communications. It's an opportunity to tell your story—your inspirations, goals, and struggles—connecting your journey to your current role and future aspirations.
-                    </p>
-                    <p>
-                        Highlight your background, expertise, and how you've reached your current position, effectively explaining the purpose and meaning behind your work.
-                    </p>
-                    <a href="assets/Resume - Cadi MIke Jerom V..pdf" class="btn btn-primary" download>Download My Resume</a>
+                    <p>[Share your professional journey, motivations, and the passion that drives your work in communications. Tell your story—inspirations, goals, struggles—connecting your journey to your current role (e.g., at Keller Williams Miami Beach Realty) and future aspirations.]</p>
+                    <p>[Highlight your background, expertise, and how you've reached your current position. Explain the purpose and meaning behind your work. Include your professional bio and mission statement if applicable.]</p>
+                    <p>Connect with me on <a href="https://www.linkedin.com/in/your-linkedin-profile-id" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="container">
+            <h2>My Resume</h2>
+            <p style="text-align: center; margin-bottom: 1rem;">A detailed account of my work experience, educational background, and formal qualifications.</p>
+            <div style="text-align: center; margin-bottom: 2rem;">
+                <a href="assets/Resume - Cadi MIke Jerom V..pdf" class="btn btn-primary" download>Download My Resume (PDF)</a>
+            </div>
+            <h3>Key Highlights</h3>
+            <ul>
+                <li>[Highlight 1 from your resume - e.g., "Led X successful campaigns resulting in Y% growth."]</li>
+                <li>[Highlight 2 from your resume - e.g., "Managed communications for a team of Z+ agents."]</li>
+                <li>[Highlight 3 from your resume - e.g., "Proficient in leveraging data to drive communication strategies."]</li>
+            </ul>
         </div>
     </section>
 
@@ -63,29 +85,39 @@
                     <img src="assets/project-image-1.jpg" alt="Recruitment Campaign Project Visual" class="work-card-image">
                     <div class="work-card-content">
                         <h3>Agent Recruitment Campaign</h3>
-                        <p><strong>The Challenge:</strong> Define the problem or goal that was targeted.</p>
-                        <p><strong>My Role:</strong> Detail your specific contributions and any leadership demonstrated.</p>
-                        <p><strong>The Results:</strong> Quantify achievements, e.g., "Increased event attendance by 20%."</p>
+                        <p><strong>Project Title/Client:</strong> [e.g., Agent Recruitment Campaign Q4 2023]</p>
+                        <p><strong>The Challenge/Objective:</strong> [Define the problem or goal that was targeted.]</p>
+                        <p><strong>My Role & Responsibilities:</strong> [Detail your specific contributions and any leadership demonstrated.]</p>
+                        <p><strong>The Process/Strategy/Actions Taken:</strong> [Describe steps, tools (Adobe Suite, Canva, CRMs, ClickFunnels, Web Dev), and strategic thinking. Explain your work process.]</p>
+                        <p><strong>The Results & Impact:</strong> [Quantify achievements, e.g., "Increased event attendance by 20%," "Generated 50 qualified agent leads." Emphasize results with data and statistics.]</p>
+                        <p><em>Visuals: [Placeholder for screenshots, designs, video clips, or links to social media posts/campaigns. Ensure confidential info is omitted/anonymized.]</em></p>
                     </div>
                 </div>
                 <div class="work-card">
                     <img src="assets/project-image-2.jpg" alt="Internal Event Promotion Visual" class="work-card-image">
                     <div class="work-card-content">
                         <h3>Internal Event Promotion Strategy</h3>
-                        <p><strong>The Challenge:</strong> Define the problem or goal that was targeted.</p>
-                        <p><strong>My Role:</strong> Detail your specific contributions and any leadership demonstrated.</p>
-                        <p><strong>The Results:</strong> Quantify achievements, e.g., "Improved internal newsletter open rates by 15%."</p>
+                        <p><strong>Project Title/Client:</strong> [e.g., Keller Williams Miami Beach Internal Event Promotion Strategy]</p>
+                        <p><strong>The Challenge/Objective:</strong> [Define the problem or goal that was targeted.]</p>
+                        <p><strong>My Role & Responsibilities:</strong> [Detail your specific contributions and any leadership demonstrated.]</p>
+                        <p><strong>The Process/Strategy/Actions Taken:</strong> [Describe steps, tools, and strategic thinking. Explain your work process.]</p>
+                        <p><strong>The Results & Impact:</strong> [Quantify achievements, e.g., "Improved internal newsletter open rates by 15%." Emphasize results with data and statistics.]</p>
+                        <p><em>Visuals: [Placeholder for flyers, digital banners, newsletter excerpts. Ensure confidential info is omitted/anonymized.]</em></p>
                     </div>
                 </div>
                 <div class="work-card">
                     <img src="assets/project-image-3.jpg" alt="Social Media Project Visual" class="work-card-image">
                     <div class="work-card-content">
                         <h3>Social Media Management Overhaul</h3>
-                        <p><strong>The Challenge:</strong> Define the problem or goal that was targeted.</p>
-                        <p><strong>My Role:</strong> Detail your specific contributions and any leadership demonstrated.</p>
-                        <p><strong>The Results:</strong> Showcase measurable results with data and impressive metrics.</p>
+                        <p><strong>Project Title/Client:</strong> [e.g., Company X Social Media Engagement Boost]</p>
+                        <p><strong>The Challenge/Objective:</strong> [Define the problem or goal that was targeted.]</p>
+                        <p><strong>My Role & Responsibilities:</strong> [Detail your specific contributions and any leadership demonstrated.]</p>
+                        <p><strong>The Process/Strategy/Actions Taken:</strong> [Describe steps, tools, and strategic thinking. Explain your work process.]</p>
+                        <p><strong>The Results & Impact:</strong> [Showcase measurable results with data and impressive metrics, e.g., "Increased social media engagement by X%."]</p>
+                        <p><em>Visuals: [Placeholder for screenshots of social media posts, campaign analytics. Ensure confidential info is omitted/anonymized.]</em></p>
                     </div>
                 </div>
+                <!-- Add 0-2 more work-card divs here for a total of 3-5 projects -->
             </div>
         </div>
     </section>
@@ -103,12 +135,58 @@
                     <ul><li>CRMs (KW Command, GoHighlevel)</li><li>ClickFunnels</li></ul>
                 </div>
                 <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <ul><li>HTML, CSS, JavaScript (Intermediate)</li><li>[Any other relevant web platforms/tools]</li></ul>
+                </div>
+                <div class="skill-category">
                     <h3>Communication Expertise</h3>
                     <ul><li>Internal & External Communications</li><li>Social Media Management</li><li>Event Promotion & Recruitment</li><li>Public Speaking, Writing, Editing</li></ul>
                 </div>
                 <div class="skill-category">
                     <h3>Strategic Capabilities</h3>
                     <ul><li>Campaign Management</li><li>Project Management</li><li>Brand Management</li></ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Others Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <!-- Optional: <img src="assets/placeholder-testimonial-author-1.jpg" alt="[Author Name]" class="testimonial-author-image"> -->
+                    <blockquote>
+                        <p>"[Quote from supervisor, colleague, or internal client. e.g., Jeromike's social media campaign for our recruitment drive was a game-changer; we saw a 30% increase in qualified applicants.]"</p>
+                        <footer>- [Author Name], <cite>[Author Title/Company]</cite></footer>
+                    </blockquote>
+                </div>
+                <div class="testimonial-card">
+                    <blockquote>
+                        <p>"[Another compelling testimonial highlighting specific skills or project successes.]"</p>
+                        <footer>- [Author Name], <cite>[Author Title/Company]</cite></footer>
+                    </blockquote>
+                </div>
+                <!-- Add 1 more testimonial-card if desired -->
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <div class="container">
+            <h2>Achievements & Certifications</h2>
+            <div class="achievements-grid">
+                <div class="achievement-category">
+                    <h3>Awards & Recognition</h3>
+                    <ul><li>[Award 1, Year]</li><li>[Recognition 2, Description]</li></ul>
+                </div>
+                <div class="achievement-category">
+                    <h3>Certifications</h3>
+                    <ul><li>[Certification Name - e.g., Adobe Certified Professional]</li><li>[Certification Name - e.g., Google Digital Garage]</li><li>[KW Command / GoHighLevel Certification if applicable]</li></ul>
+                </div>
+                <div class="achievement-category">
+                    <h3>Professional Development</h3>
+                    <ul><li>[Significant Course/Workshop 1]</li><li>[Conference Attended/Spoken At]</li></ul>
                 </div>
             </div>
         </div>
@@ -124,6 +202,7 @@
                     <div class="form-group"><input type="email" name="email" placeholder="Your Email" required></div>
                     <div class="form-group"><textarea name="message" rows="5" placeholder="Your Message" required></textarea></div>
                     <button type="submit" class="btn btn-primary">Send Message</button>
+                    <p style="margin-top: 1rem;">Or email me directly at: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
                 </form>
             </div>
         </div>
@@ -131,8 +210,8 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Jeromike Cadiao.</p>
-            <p>Connect with me on <a href="#" target="_blank">LinkedIn</a></p>
+            <p>&copy; <span id="currentYear">2024</span> Jeromike Cadiao. All Rights Reserved.</p>
+            <p>Connect with me on <a href="https://www.linkedin.com/in/your-linkedin-profile-id" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
         </div>
     </footer>
 
